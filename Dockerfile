@@ -9,7 +9,7 @@ RUN chmod 777 /usr/src/app
 # ENV DEBIAN_FRONTEND="noninteractive"
 
 # Or Add Time Zone
-ENV TZ=America/New_York # Add Zone Here
+ENV TZ=America/New_York
 RUN ln -snf "/usr/share/zoneinfo/$TZ" /etc/localtime
 RUN echo "$TZ" > /etc/timezone
 
