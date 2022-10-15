@@ -1,2 +1,2 @@
 # Sync old with new
-FROM ghcr.io/thecaduceus/cbv2:main
+FROM ghcr.io/mau671/clonebot_mau:main
